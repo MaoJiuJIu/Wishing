@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>许愿-Wishing</title>
+		<link rel="icon" href="https://cdn.jsdelivr.net/gh/MaoJiuJiu/WishingAssets@2.2.4/logo.ico">
+		<link  rel="stylesheet" type="text/css" href="./css/main.css" charset = "utf-8" />
+		<link href="https://cdn.jsdelivr.net/npm/@authing/native-js-ui-components/lib/index.min.css" rel="stylesheet">
+		<meta name="baidu-site-verification" content="code-8dKLn8So1r" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.3, maximum-scale=3.0, user-scalable=no" /> 
+
+		<script src="https://cdn.jsdelivr.net/npm/@authing/native-js-ui-components"></script>
+	</head>
+	<body>
+	    <img class="bg" id="bg" src="https://api.dujin.org/bing/1920.php">
+		<a href="about.html"><img src="https://cdn.jsdelivr.net/gh/MaoJiuJiu/WishingAssets@2.2.41/seting.png" class="about"/></a>
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/fedback.js"></script>
+		    <script type="text/javascript">
+        try {
+     if  (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+         window.location.href= "https://wishing.xingmengwx.cn/html/mobile.html";
+     }
+        } catch (e){}
+		</script>
+		
+		<div class="title-text">
+			
+		<script type="text/javascript">
+			var username = "游客";
+			document.write("<h1 class='titleh1'><center><font size='7'>HI，"  + username + "</center></font></h1>");
+		</script>
+		</div>
+		<br>
+		<br>
+		<center><span id='span_datetime' style="color: #FFFFFF; font-size: 30px"></span></center>
+			<script type="text/javascript">
+        		window.onload = function () {
+            	var datetime = document.getElementById('span_datetime');
+            	setInterval(function () {
+                var date = new Date();
+                datetime.innerHTML = date.getHours() + ':' + date.getMinutes();
+            },);
+        }
+    </script>
+					 <center><input class="search-input" id="searchinput" value =""  placeholder="search..."onkeydown="check(event);"/></center>
+					 
+						 <script language="JavaScript" type="text/javascript">
+						 {
+                         document.all("searchinput").focus();
+}
+						 function check(e)
+						{
+						    var keynum;
+						    var keychar;
+
+						    keynum = window.event ? e.keyCode : e.which;
+						if (keynum == 13) {
+							var input = document.getElementById("searchinput").value;
+							var url = "https://www.baidu.com/s?ie=UTF-8&wd=" + input
+							input.value = "";
+							window.open(url);
+						}
+						    
+						}
+						
+        </script>
+		         </div>
+				 <div>
+					 <p id="hitokoto" class="aword"><a href="javascript" id="hitokoto_text"><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" >心灵鸡汤获取中</script></a></p>
+					</div>
+	</body>
+</html>
