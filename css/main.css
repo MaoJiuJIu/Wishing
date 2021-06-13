@@ -1,0 +1,100 @@
+.bg
+{
+    opacity: 1;
+    z-index: -3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.titledate{
+	color: #FFFFFF;
+	padding-top: 20px;
+	font-family: "Microsoft Yahei Light","Microsoft Yahei",PingFangSC-Regular,Helvetica,sans-serif,"等线";
+}
+.titlespan{
+	size: 50px;
+}
+.search-input{
+	width: 200px;
+	height: 50px;
+	margin-top: 50px;
+	border-radius: 30px;
+	font-size: 20px;
+	text-align: center;
+	outline-style:none;
+	border: none;
+	transition: .4s;
+	color: transparent;
+	color: #FFFFFF;
+	font-family: "Microsoft Yahei Light","Microsoft Yahei",PingFangSC-Regular,Helvetica,sans-serif,"等线";
+	background-color: rgba(255,255,255,.25);
+    box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+    backdrop-filter: blur(1px);
+	
+	}
+	.search-input::-webkit-input-placeholder
+{
+	color: rgba(255,255,255,.80);
+	opacity: 1;
+	transition: all .4s;
+}
+.search-input:hover
+{
+	width: 800px;
+	height: 50px;
+	margin-top: 50px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,.40);
+	font-size: 20px;
+	text-align: center;
+	outline-style:none;
+	border: none;
+	transition: .4s;
+}
+.search-input:hover::-webkit-input-placeholder
+{
+	color: rgba(255,255,255,1);
+	opacity: 1;
+	transition: all .2s;
+}
+.search-input:focus
+{
+	background-color: rgba(255,255,255,.75);
+	width: 800px;
+	height: 50px;
+	color:rgb(27, 27, 27);
+	transition: all .4s;
+}
+.search-input:focus  .bg
+{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.search-input:focus::-webkit-input-placeholder
+{
+	opacity: 0;
+	transition: all .4s;
+}
+	.title-text{
+		color: #ffffff;
+		padding-top: 30px;
+		font-family: "Microsoft Yahei Light","Microsoft Yahei",PingFangSC-Regular,Helvetica,sans-serif,"等线";
+	}
+	.about{
+		width: 1.5%;
+		height: 1.5%;
+		margin-left: 1870px;
+		margin-top: 10px;
+	}
+	.aword{
+		color: rgba(255,255,255,.9);
+		text-shadow: 0 0 20px rgba(0,0,0,.8);
+		transition: all .25s;
+		text-align: center;
+		padding-left: 30px;
+		font-size: 25px;
+		padding-top: 350px;
+	}
